@@ -7,9 +7,9 @@ let upperCaseValid;
 let numberValid;
 
 do{
-    let passwordValid = true;
-    let upperCaseValid = false;
-    let numberValid = false;
+    passwordValid = true;
+    upperCaseValid = false;
+    numberValid = false;
 
     password = readline.question("Please Enter a Secure Password.");
     if (password.length < 8){
